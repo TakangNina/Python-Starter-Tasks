@@ -1,0 +1,46 @@
+Sure, here's a simple Rock Paper Scissors game in Python3 with a graphical user interface (GUI) and a README file for a GitHub repository:
+Rock Paper Scissors GUI in Python3
+This is a simple Rock Paper Scissors game implemented in Python3 using the Tkinter library for the GUI.
+Getting Started
+To run the game, you'll need to have Python3 and the Tkinter library installed. Tkinter is a standard library in Python3, so you shouldn't need to install anything extra.
+Installing
+
+Clone the repository to your local machine:
+
+Copygit clone https://github.com/your-username/rock-paper-scissors-gui.git
+
+Navigate to the project directory:
+
+Copycd rock-paper-scissors-gui
+
+Run the game:
+
+Copypython3 rock_paper_scissors.py
+How to Play
+
+The game will open a window with three buttons: Rock, Paper, and Scissors.
+Click on one of the buttons to make your choice.
+The computer will randomly choose its move.
+The game will display the result (win, lose, or tie) and update the score.
+To play again, simply click one of the buttons.
+
+Code Explanation
+The code is divided into the following parts:
+
+Imports: We import the necessary modules, including Tkinter for the GUI.
+Game Logic: The game logic is implemented in the play_game() function, which takes the user's choice and the computer's choice, and determines the winner.
+GUI Setup: The GUI is set up using Tkinter, with three buttons for the user's choices and labels to display the result and the score.
+Main Loop: The main game loop runs, handling user input and updating the display.
+
+Built With
+
+Python3
+Tkinter
+
+Author
+
+Nina Takang
+
+License
+This project is licensed under the MIT License.
+Here's the Python code for the Rock Paper Scissors GUI:
